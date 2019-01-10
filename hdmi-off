@@ -1,0 +1,2 @@
+xrandr --output eDP-1 --mode "1360x768" --current
+xrandr --output HDMI-2 --off
