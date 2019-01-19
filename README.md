@@ -2,7 +2,7 @@
              and "gamma value", allowing for brightness of the screen to be software-controlled to a point
 
 
-[**rosalind.py**](files/rosalind.py) -- A python script that I am currently using to track my progress on the [Rosalind.info](wwww.rosalind.info) python bioinformatics site
+[**rosalind_progress**](files/rosalind_progress) -- A python script that I am currently using to track my progress on the [Rosalind.info](wwww.rosalind.info) python bioinformatics site
 
 [**fan**](files/fan) -- a script that I use to control my fan speed on my lenovo thinpad x1 carbon 3rd gen laptop
 
