@@ -29,9 +29,9 @@ while getopts ":r:g:b:" o; do
               usage
             fi
             ;;
-				b)
-						brightness=${OPTARG}
-						less_than="$(echo $gamma'<'0 | bc)"
+        b)
+            brightness=${OPTARG}
+            less_than="$(echo $gamma'<'0 | bc)"
             greater_than="$(echo $gamma'>'1 | bc)"
             if [ $less_than = 1 ] || [ $greater_than = 1 ]; then
             	usage
