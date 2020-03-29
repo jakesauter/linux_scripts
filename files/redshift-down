@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# get the current brightness
+br=`cat ~/.local/bin/current_brightness.txt`
+
+# get the current redshift
+rs=`cat ~/.local/bin/current_redshift.txt`
+
+# add increment to redshift
+rs=`python -c "x = $rs+100; x=4000 if x > 4000 else x; print(x)"`
+
+# write out the new redshift
+echo $rs > ~/.local/bin/current_redshift.txt
+
+# set the brightness with the current
+# redshift
+nightmode -r $rs -b $br
